@@ -215,5 +215,7 @@ button{
     appearance: none;
     border-radius: 2px;
     background-color: rgb(227, 235, 208);
-
+    color: black;
+    outline: 1px solid black;
 }
+
