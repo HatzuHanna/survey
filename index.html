@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Survey</title>
+</head>
+<body>
+
+    <main id="main">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <header class="header">
+
+        <h1 id="title">Dunder <br> Mifflin
+            <p id="description">Paper <br> Company.</p>
+            <div class="epson"></div>
+        </h1>  
+         
+     </header>
+
+     <form action="" id="survey-form"> 
+        <div class="contact">
+         <label for="name" id="name-label">Name
+            <input id="name" type="text" name="name" required placeholder=" ">  <br>
+        </label>
+         <label for="email" id="email-label">Corporate Email 
+            <input id="email" type="email" name="email" required placeholder="@mifflin.com" >  <br>
+        </label>
+         <label for="number" id="number-label">Store ID 
+            <input id="number" type="number" name="number" required placeholder=" " min="0" max="100">  <br>      
+        </label>
+        </div>  
+
+        <div class="picks">
+         <label for="dropdown" id="product-label">Product 
+     
+            <select class="drop" id="dropdown">
+                <option class="drop" value="printer_paper">Printer paper</option>
+                <option class="drop" value="canvas">Canvas format</option>
+                <option class="drop" value="tissues">Tissues</option></select>  
+            
+            </label>           
+            </div>
+
+         <div class="radios">
+            
+            <div class="radio menu ">
+
+            <label for="delivery">Delivery <br>
+                <input class="textos" type="radio" id="radio1" name="radio" value="Standard">Standard <br>
+                <input class="textos" type="radio" id="radio2" name="radio" value="Overnight">Overnight <br>
+                <input class="textos" type="radio" id="radio3" name="radio" value="Same_Day">Same Day Delivery <br>
+            
+            </label>  
+        </div>
+            <div class="check menu">
+                
+            <label for="check menu">Extras hmmm <br>
+                <input type="checkbox" id="check1" name="check" value="DMTC">Extra padding <br>
+                <input type="checkbox" id="check2" name="check" value="FedEx">Fragile warning <br>
+                <input type="checkbox" id="check3" name="check" value="USPS">Return label<br>
+            
+            </label>  
+
+            </div>
+            
+         </div>   
+            <div class="comments">
+                <p>Additional comments, instructions:</p>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea> 
+        </div>
+        <div class="send"> 
+        <button type="submit" id="submit">Submit</button>
+    </div>
+        </form>
+  </main>
+</body>
+</html>
