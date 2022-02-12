@@ -207,12 +207,13 @@ select {
 
 button{
     font-family:'Rowdies', cursive;
-    font-size: 1rem;
+    font-size: .8rem;
     width: max-content;
     margin-left: 0;
-    padding: 2px;
+    padding: 4px;
     height: max-content;
     appearance: none;
     border-radius: 2px;
     background-color: rgb(227, 235, 208);
+
 }
